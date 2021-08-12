@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* Reset  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #111;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(46, 78, 46);
+}
+
+ul {
+  list-style: none;
+}
+
+/* div#wrap */
+div#wrap {
+  width: 580px;
+  border: 1px solid #999;
+  margin: 0 auto;
+}
+
+/* header#header */
+header#header {
+  padding: 6px;
+  background-color: #012219;
+}
+
+#header h1 {
+  color: #a4b937;
+  font-size: 28px;
+  text-align: center;
+  transform: scaleX(0.97);
+}
+
+#header h1 span:first-child {
+  color: #e2e3a6;
+  font-size: 70px;
+}
+
+#header h1 span:nth-child(2) {
+  font-size: 38px;
+}
+
+#header h1 span:last-child {
+  color: #a1a994;
+  font-size: 52px;
+}
+
+/* main#main */
+main#main {
+  height: 464px;
+  /* footer영역 위치 지정을 위해 사용함 */
+  position: relative;
+}
+
+/* nav#gnb */
+nav#gnb {
+  width: 140px;
+  height: 464px;
+  padding: 16px;
+  background-color: #a4b39c;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#gnb li {
+  line-height: 26px;
+}
+
+/* div#contents */
+/* 적용 1 */
+/* 
+div#contents {
+  margin-left: 140px;
+} */
+
+/* 적용 2 */
+div#contents {
+  width: 438px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+div#contents h2 {
+  color: #bfb42f;
+  font-size: 23px;
+  font-family: 궁서체;
+  font-weight: normal;
+  padding: 8px;
+  padding-left: 20px;
+  background-color: #501903;
+}
+
+div#contents p {
+  text-align: justify;
+  padding: 16px;
+}
+
+/* footer#footer */
+footer#footer {
+  font-size: 14px;
+  padding: 11px 20px;
+  background-color: #889780;
+}
